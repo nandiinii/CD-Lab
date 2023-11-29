@@ -6,7 +6,7 @@ FILE *file;
 
 
 %%
-[a-zA-Z]*"achy"[a-zA-Z]*  {}
+[a-zA-Z]*"nand"[a-zA-Z]*  {}
 [a-zA-Z]* {printf("%s\n",yytext);}
 %%
 int main()
